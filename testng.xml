@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+        <suite data-provider-thread-count="3" thread-count="2" parallel="false" verbose="1" name="Examples Test Suite">
+
+
+  <<listeners>
+
+    <listener class-name="common.ExtentReporterNG"/>
+
+</listeners> >
+
+
+    <test name="LoginTestCases" enabled="true" preserve-order="true">
+
+
+    <classes>
+
+    <class name="testCases.FirstTest"/>
+
+    <class name="testCases.Exercice2"/>
+
+    <class name="testCases.Formulaire"/>
+
+</classes>
+
+</test>
+
+</suite>
